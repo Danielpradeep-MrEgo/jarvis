@@ -1,0 +1,14 @@
+.image__upload {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	bottom: 0;
+}
+
+.image__circle {
+	display: block;
+	position: absolute;
+	/* top: 638px; */
+	bottom: 25px;
+	padding-left: 4px;
+}

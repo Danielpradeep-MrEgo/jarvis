@@ -1,0 +1,95 @@
+.sidebarChat {
+	display: flex;
+	padding: 20px;
+	cursor: pointer;
+	height: 100vh;
+	border-radius: 20px;
+	overflow-y: scroll;
+}
+
+.sidebarChat__chat {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border-left-color: black; */
+	/* padding-left: 20px;
+	border-bottom: 1px solid #101626;
+	cursor: pointer; */
+}
+
+.sidebarChat__main {
+	display: flex;
+	justify-content: space-between;
+	/* border-right: 1px solid green; */
+	border-right-color: black;
+	padding-left: 20px;
+	height: 10vh;
+	align-items: center;
+	border-bottom: 1px solid #101626;
+	cursor: pointer;
+}
+
+.sidebarChat__time {
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-between;
+	align-content: flex-end;
+	justify-content: flex-end;
+	text-align: flex-end;
+	align-items: flex-end;
+	margin: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.sidebarChat__time > h4 {
+	color: #ffffff;
+	font-weight: 100;
+	font-size: x-small;
+}
+
+.sidebarChat__chat:hover {
+	/* background-color: #101626; */
+}
+.sidebarChat__main:hover {
+	background-color: #101626;
+}
+
+.sidebarChat__info {
+	padding-left: 10px;
+	align-content: center;
+	justify-content: center;
+}
+
+.sidebarChat__info > h4 {
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.sidebarChat__info > h4 > p {
+	font-size: small;
+	font-weight: 200;
+	padding-top: -10px;
+	/* color: #ffffff; */
+}
+.sidebarChat__chat > h4 {
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #ffffff;
+}
+
+.sidebarChat__chat > h4 > p {
+	font-weight: 200;
+	font-size: x-small;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
+
+.sidebarChat::-webkit-scrollbar {
+	display: none;
+}

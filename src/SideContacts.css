@@ -1,0 +1,33 @@
+.sidecont__chat {
+	display: flex;
+	padding-left: 20px;
+	cursor: pointer;
+	overflow-y: scroll;
+	align-items: center;
+	height: 10vh;
+}
+
+.sidecont__names > span {
+	display: flex;
+	flex-direction: column;
+}
+
+.span__id {
+	font-size: x-small;
+	font-weight: 10;
+	color: lightslategray;
+}
+
+.sidecont__chat:hover {
+	background-color: #101626;
+}
+
+.sidecont__chat > span > h4 {
+	color: white;
+	padding-left: 20px;
+}
+
+.sidecont__chat > span > h4 > h6 {
+	color: white;
+	/* padding-bottom: 25px; */
+}

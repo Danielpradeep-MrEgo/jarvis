@@ -1,0 +1,20 @@
+.app {
+	/* display: flex;
+	padding: 5px;
+	background-image: url(./black.png);
+	height: 100vh;
+	overflow: hidden; */
+}
+
+.app__back {
+	background-color: #0e1e25;
+	overflow: hidden;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+} */

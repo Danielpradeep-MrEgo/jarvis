@@ -1,0 +1,229 @@
+.profile {
+	display: flex;
+	flex-direction: column;
+	flex: 0.25;
+	background-image: url(./Rectangle.png);
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	/* height: 100vh; */
+	height: auto;
+	padding: 20px;
+	color: #ffffff;
+}
+
+.siriimg {
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-self: center;
+	align-self: center;
+	height: 140px;
+	width: 140px;
+	top: 50px;
+}
+
+.progress__circle {
+	display: block;
+	/* top: -50px; */
+	position: absolute;
+	top: 420px;
+	left: 150px;
+}
+
+.siriimg > img {
+	height: 80px;
+	width: 80px;
+}
+
+.siriimg {
+	display: flex;
+	height: 65px;
+	width: 65px;
+	align-items: center;
+	justify-content: center;
+	margin: 9px;
+}
+
+.jarvis__color {
+	display: block;
+	width: 65px;
+	height: 65px;
+	border-radius: 30px;
+	color: #101626;
+	background-color: #101626;
+}
+
+.profile > .MuiAvatar-root {
+	display: flex;
+	/* align-content: center; */
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-self: center;
+	align-self: center;
+	height: 140px;
+	width: 140px;
+	top: 50px;
+}
+
+.profile__avatar > .MuiAvatar-root:hover {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-self: center;
+	align-self: center;
+	webkit-filter: blur(1px);
+	filter: blur(1px);
+	cursor: pointer;
+}
+
+.profile__avatar > .MuiAvatar-root:hover::after {
+	content: "edit";
+}
+
+.profile__name > .MuiSvgIcon-root {
+	/* display: flex; */
+	height: 15px;
+	position: absolute;
+	display: grid;
+	justify-self: center;
+	top: 100px;
+	align-items: center;
+	align-content: center;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.edit {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-self: center;
+	align-self: center;
+	top: 15%;
+}
+
+.editHide {
+	display: none;
+}
+
+.profile__name {
+	display: grid;
+	justify-self: center;
+	/* justify-content: space-evenly; */
+	justify-items: space-evenly;
+	top: 100px;
+	align-items: center;
+	/* align-content: center; */
+}
+
+.profile__name > h6 {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 40px;
+	color: #ffffff;
+}
+
+.profile > .MuiButtonBase-root,
+.MuiSvgIcon-root,
+.MuiButton-root {
+	display: none;
+	font-style: inherit;
+	font-family: inherit;
+}
+
+.profile__name > h6 > .MuiSvgIcon-root {
+	height: 15px;
+	padding-left: 10px;
+	color: gray;
+}
+
+.profile__name > h6 > .MuiSvgIcon-root:hover {
+	color: white;
+}
+
+.profile__input {
+	display: none;
+}
+
+.profile__inputh {
+	display: flex;
+	width: 100%;
+	flex: 1;
+	border: none;
+	outline: none;
+	padding: 5px;
+	/* position: absolute; */
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid gray;
+	background: transparent;
+	color: white;
+}
+.profile__inputhide {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	/* width: 20px; */
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #101626;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid gray;
+}
+
+.profile__inputhide:hover {
+	color: gray;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.about {
+	display: flex;
+	padding-bottom: 5px;
+	/* border-bottom: 1px solid #101626; */
+}
+
+.profile__about > h4 {
+	color: white;
+	/* color: #101626; */
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid gray;
+}
+
+.profile__about {
+	text-decoration: none !important;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	/* justify-items: center; */
+}
+
+.profile__flex {
+	display: flex;
+	width: 100%;
+}
+
+.profile__flex > input {
+}
+
+@media screen and (max-width: 1050px) {
+	.profile {
+		display: none;
+	}
+}

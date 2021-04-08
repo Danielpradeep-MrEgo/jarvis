@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.addContacts__main {
+	display: grid;
+	flex: 1;
+	box-sizing: border-box;
+	/* position: relative; */
+	height: 100vh;
+}
+
+.addContacts__form {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: #fff;
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	/* background: linear-gradient(-45deg, #101010, #101642, #101626, #18243e); */
+	background: linear-gradient(-45deg, #18243e, #101642);
+	/* background: linear-gradient(black); */
+	background-size: 400% 400%;
+	animation: change 10s ease-in-out infinite;
+}
+
+.addContacts__video {
+	/* position: absolute; */
+	height: 67px;
+	top: 50px;
+	margin-bottom: 50px;
+	/* z-index: -1; */
+	width: 100px;
+}
+
+/* .addContacts__form > form > h1 {
+	display: flex;
+	font-family: "Permanent Marker", cursive;
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	background: black;
+	mix-blend-mode: multiply;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	z-index: 1;
+} */
+.addContacts {
+	display: grid;
+	position: absolute;
+	/* top: 15%; */
+	left: 50%;
+	color: inherit;
+	/* background-image: url(/src/log.gif); */
+	object-fit: fill;
+	width: 40px;
+	background-size: 400px;
+	background-position: center;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	/* transform: translate(-50%, -50%); */
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.addContacts__form > form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	height: 50vh;
+	width: 25vw;
+	position: absolute;
+	background: inherit;
+	color: #fff;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 500px rgba(255, 255, 255, 0.2);
+}
+
+.addContacts__form > form > input {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 30px;
+	border: none;
+	width: 80%;
+	top: 50%;
+	height: 30px;
+	outline: none;
+	margin: 10px;
+	align-items: center;
+	align-content: center;
+	padding-left: 45px;
+}
+
+.button__sub {
+	padding-top: 50px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.button__jarvis {
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.addContacts__ani {
+	display: grid;
+	position: absolute;
+	left: 50%;
+	color: inherit;
+	background-image: url(/src/log.gif);
+	object-fit: fill;
+	width: 40px;
+	background-size: 400px;
+	background-position: center;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	transform: translate(-50%, -50%);
+}
+
+.contact__select {
+	left: 0;
+	padding-left: 30px;
+	position: absolute;
+	top: 154px;
+	display: block;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	width: 10px;
+	/* border-bottom: 1px solid; */
+	/* padding-bottom: 10px; */
+	margin-left: 25px;
+}
+.addContacts__form > form > h4 {
+	left: 0;
+	padding-left: 55px;
+	position: absolute;
+	top: 131px;
+	padding-right: 5px;
+	display: block;
+	border: none;
+	outline: none;
+	font-weight: 100;
+	background-color: transparent;
+	width: 10px;
+	/* border-bottom: 1px solid; */
+	/* padding-bottom: 10px; */
+	/* margin-left: 30px; */
+	color: black;
+}
+
+.addcontact__input > input {
+	/* z-index: 1; */
+	width: 90%;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
+
+.select {
+	display: flex;
+}
+
+.select > input {
+	border-radius: 30px;
+	border: none;
+	width: 100%;
+	top: 50%;
+	height: 30px;
+	outline: none;
+	margin: 10px;
+}

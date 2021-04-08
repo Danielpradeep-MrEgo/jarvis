@@ -1,0 +1,147 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+	flex: 0.35;
+	height: 90vh;
+	width: 23vw;
+	flex: 1;
+	border-radius: 20px;
+	background-image: url(./chats.png);
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.contacts__svg > p > form {
+	display: none;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	flex: 0.35;
+	height: 90vh;
+	width: 23vw;
+	flex: 1;
+	border-radius: 20px;
+	background-image: url(./chats.png);
+	color: #ffffff;
+}
+
+.contacts__chats {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+	display: inline;
+	width: 2px;
+}
+
+/* Track */
+.contacts__chats::-webkit-scrollbar-track {
+	display: inline;
+	background: #18243e;
+	border-bottom: 13px solid;
+	border-radius: 30px;
+	border-bottom-color: #101626;
+}
+
+/* Handle */
+.contacts__chats::-webkit-scrollbar-thumb {
+	display: inline;
+	background: #888;
+	height: 10vh;
+}
+
+/* Handle on hover */
+.contacts__chats::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* .sidebar__chats::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .sidebar__chats {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+  } */
+.contacts__icons {
+	display: flex;
+	box-sizing: border-box;
+	padding: 10px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contacts__svgs > img {
+	height: 40px;
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+}
+
+.contacts__svg > img {
+	height: 40px;
+	padding-bottom: 10px;
+}
+
+.contacts__svg > img:hover {
+	border-bottom-style: solid;
+	transition: all 0.3s;
+}
+
+.contacts__svg .MuiSvgIcon > img {
+	height: 40px;
+	padding-bottom: 10px;
+}
+
+.contacts__search {
+	display: flex;
+	margin: 10px;
+	justify-items: center;
+}
+
+.contacts__search > .MuiSvgIcon-root {
+	color: black;
+	padding-top: 10px;
+	font-weight: 400;
+	color: #101626;
+	border-color: white;
+	padding-left: 5px;
+	position: absolute;
+}
+
+.contacts__search > input {
+	height: 5vh;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	padding-left: 30px;
+	padding-top: 4px;
+	width: 90%;
+	color: #101626;
+	border-color: white;
+	border-top: white;
+	outline: none;
+	border-radius: 30px;
+}
+
+.contacts__svgname > img {
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.contacts__name {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}

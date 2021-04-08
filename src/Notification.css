@@ -1,0 +1,12 @@
+.Notification {
+	display: flex;
+	flex-direction: column;
+	flex: 0.6;
+	padding: 30px;
+	/* border: none; */
+	border-left: 4px solid;
+	border-color: #101626;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url(./Chat1.png);
+}

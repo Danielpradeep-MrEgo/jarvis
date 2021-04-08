@@ -1,0 +1,10 @@
+.emoji__icon {
+	cursor: pointer;
+	color: white;
+}
+
+.emoji__icon > .MuiIconButton-root {
+	color: white;
+	/* padding-right: 20px; */
+	/* margin: 40px; */
+}

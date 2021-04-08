@@ -1,0 +1,13 @@
+.addContactsBack {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./Chat1.png);
+	flex: 0.68;
+}
+
+.add__form {
+	display: grid;
+	position: absolute;
+	right: 380px;
+}

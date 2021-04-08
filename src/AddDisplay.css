@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.addDisplay__main {
+	display: grid;
+	flex: 1;
+	box-sizing: border-box;
+	/* position: relative; */
+	height: 100vh;
+}
+
+.button_jarvis {
+	display: flex;
+	right: 0;
+	bottom: 0;
+}
+
+.addDisplay__form {
+	display: flex;
+	position: relative;
+	color: #fff;
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	/* background: linear-gradient(-45deg, #101010, #101642, #101626, #18243e); */
+	background: linear-gradient(-45deg, #18243e, #101642);
+	background-size: 400% 400%;
+	animation: change 10s ease-in-out infinite;
+}
+
+.addDisplay__form > form > h1 {
+	/* background-image: url(/src/log.gif); */
+	object-fit: fill;
+	font-family: "Permanent Marker", cursive;
+	width: 100px;
+	background-size: 400px;
+	background-position: center;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.addDisplay {
+	display: grid;
+	position: absolute;
+	/* top: 15%; */
+	left: 50%;
+	color: inherit;
+	/* background-image: url(/src/log.gif); */
+	object-fit: fill;
+	width: 40px;
+	background-size: 400px;
+	background-position: center;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	/* transform: translate(-50%, -50%); */
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.addDisplay__form > form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	height: 50vh;
+	width: 25vw;
+	position: absolute;
+	background: inherit;
+	color: #fff;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 500px rgba(255, 255, 255, 0.2);
+}
+
+.addDisplay__form > form > input {
+	border-radius: 30px;
+	border: none;
+	width: 85%;
+	top: 50%;
+	height: 30px;
+	outline: none;
+	margin: 10px;
+}
+
+.button__sub {
+	padding-top: 50px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.addDisplay__ani {
+	display: grid;
+	position: absolute;
+	left: 50%;
+	color: inherit;
+	background-image: url(/src/log.gif);
+	object-fit: fill;
+	width: 40px;
+	background-size: 400px;
+	background-position: center;
+	align-self: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	transform: translate(-50%, -50%);
+}

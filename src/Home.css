@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  padding: 30px;
+  border: none;
+  background-image: url(./Chat1.png);
+}

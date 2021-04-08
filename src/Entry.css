@@ -1,0 +1,8 @@
+.entry {
+	display: flex;
+	padding: 5px;
+	/* padding-left: 5px; */
+	background-image: url(./black.png);
+	height: 100vh;
+	overflow: hidden;
+}
